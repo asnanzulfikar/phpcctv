@@ -6,7 +6,7 @@ $uri_segments = explode('/', $uri_path);
 $cctv_pos = 'jurug';
 //echo $uri_segments[1];
 $today = date("Ymd");
-$ftp_server = "117.20.58.227";
+$ftp_server = "xxx.xxx.xxx.xxx";
 $ftp_conn = ftp_connect($ftp_server);
 $login = ftp_login($ftp_conn,"anonymous","");
 $mode = ftp_pasv($ftp_conn, TRUE);
